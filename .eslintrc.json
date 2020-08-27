@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "rules": {
+    },
+    "plugins": [
+        "html"
+    ],
+    "settings": {
+        "html/html-extensions": [".html", ".jsp"],  // consider .html and .we files as HTML
+        "html/indent": "tab",  // indentation is the <script> indentation plus two spaces.
+        "html/report-bad-indent": "error"    
+    }
+}
